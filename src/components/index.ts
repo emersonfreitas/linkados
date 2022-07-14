@@ -1,1 +1,3 @@
 export * from "./Wrapper/index";
+export * from "./Card/index";
+export * from "./Avatar";
