@@ -1,10 +1,21 @@
-import { Avatar } from "../Avatar";
-import { CardBody } from "./styles";
+import { Avatar, Text } from "../";
+import {
+  CardContent,
+  CardHeader,
+  TextHeader,
+  CardBody,
+} from "./styles";
 
 export function Card() {
   return (
-    <CardBody>
-      <Avatar />
-    </CardBody>
+    <CardContent>
+      <CardHeader>
+        <Avatar />
+        <TextHeader>
+          <Text>Emerson Freitas</Text>
+        </TextHeader>
+      </CardHeader>
+      <CardBody></CardBody>
+    </CardContent>
   );
 }
