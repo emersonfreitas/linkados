@@ -4,8 +4,13 @@ import { TextStyle } from "./styles";
 interface TextProps {
   children: string | ReactNode;
   secondary?: boolean;
+  as?: "p" | "h1" | "h2";
 }
 
-export function Text({ children, secondary }: TextProps) {
-  return <TextStyle secondary={secondary}>{children}</TextStyle>;
+export function Text({ children, secondary, as = "p" }: TextProps) {
+  return (
+    <TextStyle as={as} secondary={secondary}>
+      {children}
+    </TextStyle>
+  );
 }
