@@ -1,5 +1,11 @@
+import { Card, Wrapper } from "./components";
+
 function App() {
-  return <h1>Linkados</h1>;
+  return (
+    <Wrapper>
+      <Card></Card>
+    </Wrapper>
+  );
 }
 
 export default App;
