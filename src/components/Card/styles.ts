@@ -26,7 +26,6 @@ export const CardContent = styled.div`
   background-color: #222533;
 
   width: 500px;
-  height: 500px;
 
   border: 2px solid #1d1d2d;
   border-radius: 8px;
@@ -36,4 +35,10 @@ export const CardContent = styled.div`
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
-export const CardBody = styled.div``;
+export const CardBody = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+`;

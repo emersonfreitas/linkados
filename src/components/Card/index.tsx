@@ -1,4 +1,4 @@
-import { Avatar, Text } from "../";
+import { Avatar, Text, SocialItem } from "../";
 import {
   CardContent,
   CardHeader,
@@ -15,7 +15,23 @@ export function Card() {
           <Text>Emerson Freitas</Text>
         </TextHeader>
       </CardHeader>
-      <CardBody></CardBody>
+      <CardBody>
+        <SocialItem
+          name="github"
+          title="emersonfreitas"
+          link="https://github.com/emersonfreitas"
+        />
+        <SocialItem
+          name="linkedin"
+          title="emersonfreitas"
+          link="https://www.linkedin.com/in/emersonfreitasn/"
+        />
+        <SocialItem
+          name="email"
+          title="emersonfreitasn@gmail.com"
+          link="mailto:emersonfreitasn@gmail.com"
+        />
+      </CardBody>
     </CardContent>
   );
 }
