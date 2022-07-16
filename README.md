@@ -1,4 +1,4 @@
-# LINKADOS
+# My links
 
 Agrupando minhas redes em um único lugar
 
